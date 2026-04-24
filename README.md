@@ -1,99 +1,87 @@
-# RazgarAI 🔨
+# 🚀 RozgarAI: Empowering India's Informal Workforce with Generative Identity
 
-50 million skilled workers in India are invisible to the formal economy. RazgarAI changes that.
+**RozgarAI** is a world-class, production-grade platform designed to solve the "Identity Crisis" for over 400 million informal and daily-wage workers in India. By combining Generative AI with economic intelligence, RozgarAI transforms a worker's basic skills into a **Verified Professional Credential.**
 
-## The Problem
-
-- 400M+ informal workers in India have no formal identity
-- No documents = no bank accounts, no loans, no verification
-- Money lenders charge 30-60% interest because there's no credit history
-- Workers have skills but can't prove it
-
-**RazgarAI** creates a professional identity in 2 minutes. No documents. No bank account. No paperwork.
-
-## How It Works
-
-**Step 1:** Fill your work details (2 minutes)
-- Name, city, trade, experience, daily income
-- Optional employer name for extra trust
-
-**Step 2:** AI generates your profile
-- KaamScore (0-100 trust score)
-- Professional bio written by AI
-- Verified skills list
-- Achievement highlight
-
-**Step 3:** Download your PDF card
-- Share with employers and banks
-- Use for loan applications
-- Your LinkedIn without the internet
-
-## Tech Stack
-
-| Layer | Technology |
-|-------|------------|
-| Frontend | React 18 + Vite + Tailwind CSS |
-| Backend | FastAPI + Python 3.11 |
-| AI | OpenAI GPT-4o-mini |
-| PDF | ReportLab |
-
-## Setup in 5 Minutes
-
-### 1. Clone and enter directory
-```bash
-git clone https://github.com/yourusername/razgarai.git
-cd razgarai
-```
-
-### 2. Setup Backend
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-cp ../.env.example .env
-# Edit .env and paste your OPENAI_API_KEY
-```
-
-### 3. Run Backend
-```bash
-uvicorn main:app --reload
-# Runs at http://localhost:8000
-```
-
-### 4. Setup Frontend (new terminal)
-```bash
-cd frontend
-npm install
-npm run dev
-# Runs at http://localhost:5173
-```
-
-### 5. Open Browser
-Go to **http://localhost:5173**
-
-## Live Demo
-
-_Coming soon at razgarai.vercel.app_
-
-## Roadmap
-
-- [ ] WhatsApp bot integration
-- [ ] Employer verification system
-- [ ] Bank/NBFC API integration
-- [ ] Hindi language support
-- [ ] KaamScore history tracking
-- [ ] QR code on PDF for instant verification
-
-## Why This Matters
-
-For 400 million workers in India, RazgarAI isn't an app — it's their LinkedIn, their credit score, and their proof of identity. All in their pocket.
-
-## License
-
-MIT License
+![RozgarAI Banner](https://img.shields.io/badge/RozgarAI-Universe--Level-indigo)
+![Tech Stack](https://img.shields.io/badge/React-Vite-blue)
+![AI Engine](https://img.shields.io/badge/OpenAI-GPT--4o--mini-green)
 
 ---
 
-Built with ❤️ for India's workers
+## 🏛️ Why This Matters (The Problem)
+Informal workers (Electricians, Carpenters, Plumbers, etc.) contribute massively to India's GDP but lack:
+1.  **Digital Identity**: They have no professional resume or verified profile.
+2.  **Fair Pay**: They are often underpaid because they can't "prove" their expertise level.
+3.  **Creditworthiness**: Without a verified identity, they cannot access formal banking.
+
+**RozgarAI changes this.** It gives every worker a **High-Fidelity Digital Identity Card** that proves their value instantly.
+
+---
+
+## 💎 Features (The "WOW" Factors)
+
+### 📊 KaamScore™ Engine
+A proprietary AI assessment that calculates a worker's expertise based on experience, trade, and location. It assigns a **Platinum/Gold/Silver** grade to instantly signal trust to employers.
+
+### 🎙️ AI Voice Profiles
+Workers can generate a professional narrative of their career in **22 Indian languages**. The UI includes an interactive audio player so employers can "hear" the worker's story.
+
+### 📈 Economic Intelligence (Fair Pay Advisory)
+RozgarAI analyzes local market data to tell the worker exactly how much they should charge per day. This empowers them during negotiations and prevents exploitation.
+
+### 📜 Digital Authentication (QR & Signature)
+Every profile comes with a **Unique QR Code** for instant verification and a **Digital Signature** to make the identity feel formal and document-ready.
+
+### 💡 AI Interview Coach
+A trade-specific AI mentorship system that gives workers personalized tips on how to talk to big contractors and win better jobs.
+
+---
+
+## 🌌 "Nebula" UI Design System
+Built with **Glassmorphism 3.0**, RozgarAI features:
+- **Mesh Gradients**: A deep, animated background of Indigo and Purple.
+- **Quantum Blur**: 30px backdrop blur for a crystalline, luxury feel.
+- **3D Tilt Physics**: Interactive profile cards that react to mouse movement.
+- **Liquid Gold Shimmer**: Achievement effects for high-ranking profiles.
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend**: React (Vite) + Tailwind CSS + Framer Motion (Visuals)
+- **Backend**: Python (FastAPI)
+- **AI Engine**: OpenAI GPT-4o-mini (Multilingual Narrative & Mentorship)
+- **Identity**: `qrcode.react` (Authentication)
+- **Styling**: Hyper-Luxury CSS Custom Tokens
+
+---
+
+## 🚀 Installation & Setup
+
+1.  **Clone the Repo**:
+    ```bash
+    git clone https://github.com/SurbhiAgarwal1/Razgar-ai.git
+    ```
+2.  **Backend Setup**:
+    ```bash
+    cd backend
+    pip install -r requirements.txt
+    # Set OPENAI_API_KEY in .env
+    python main.py
+    ```
+3.  **Frontend Setup**:
+    ```bash
+    cd frontend
+    npm install
+    npm run dev
+    ```
+
+---
+
+## 🤝 Social Impact
+RozgarAI is a **Mission-Driven** project aimed at:
+- **Financial Inclusion**: Bridging the gap between the informal sector and formal verification.
+- **Economic Empowerment**: Giving workers the data they need to demand fair wages.
+- **Professional Pride**: Transforming "Daily Labor" into "Verified Professionals."
+
+---
+*Built with ❤️ for a Digital India.*

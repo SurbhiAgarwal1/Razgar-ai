@@ -6,6 +6,10 @@
 ![Tech Stack](https://img.shields.io/badge/React-Vite-blue)
 ![AI Engine](https://img.shields.io/badge/OpenAI-GPT--4o--mini-green)
 
+> [!IMPORTANT]
+> **LATEST UPDATE: Hyper-Luxury UI v4.0**
+> The platform now features **3D Tilt Physics** (cards react to mouse movement), **Liquid Gold Shimmer** for high-ranking profiles, and **Quantum-Blur Glassmorphism.**
+
 ---
 
 ## 🏛️ Why This Matters (The Problem)

@@ -35,19 +35,16 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen relative">
-      {/* Dynamic Nebula Background */}
-      <div className="mesh-bg" />
-
-      <div className="max-w-2xl mx-auto py-16 px-6 relative z-10">
-        <header className="flex justify-between items-center mb-20 px-6">
-          <div className="flex items-center gap-6 group">
-            <div className="w-16 h-16 glass-panel bg-indigo-600/30 flex items-center justify-center text-white font-black text-4xl shadow-[0_0_30px_rgba(99,102,241,0.4)] rotate-3 group-hover:rotate-0 transition-all">R</div>
-            <div className="space-y-1">
-              <h1 className="text-4xl font-black text-white tracking-tighter flex items-center gap-2">
-                ROZGAR<span className="text-indigo-400 italic">AI</span>
+    <div className="min-h-screen bg-[#fbfbfd]">
+      <div className="max-w-4xl mx-auto py-16 px-8">
+        <header className="flex justify-between items-center mb-24">
+          <div className="flex items-center gap-4">
+            <div className="w-12 h-12 bg-blue-600 rounded-2xl flex items-center justify-center text-white font-black text-2xl shadow-xl shadow-blue-100">R</div>
+            <div>
+              <h1 className="text-3xl font-black text-slate-900 tracking-tighter">
+                Rozgar<span className="text-blue-600">AI</span>
               </h1>
-              <p className="text-[10px] font-black text-indigo-300/40 uppercase tracking-[0.5em]">Identity & Economic Portal</p>
+              <p className="text-[11px] font-black text-slate-400 uppercase tracking-[0.4em]">Official Credentialing</p>
             </div>
           </div>
           
@@ -57,9 +54,9 @@ export default function App() {
           />
         </header>
 
-        <main className="relative">
+        <main>
           {view === 'form' && (
-            <div className="animate-nebula">
+            <div className="animate-reveal max-w-xl mx-auto">
               <WorkerForm onSubmit={handleSubmit} t={t} language={language} />
             </div>
           )}
@@ -76,18 +73,21 @@ export default function App() {
           )}
         </main>
 
-        <footer className="mt-32 pt-16 border-t border-white/5 text-center">
-          <div className="flex justify-center gap-12 mb-10 opacity-10 contrast-150 brightness-200">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Digital_India_logo.svg" alt="Digital India" className="h-12" />
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/255px-Flag_of_India.svg.png" alt="India" className="h-12" />
+        <footer className="mt-32 pt-16 border-t border-slate-200 text-center space-y-8">
+          <div className="flex justify-center gap-16 opacity-30 grayscale brightness-125">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Digital_India_logo.svg" alt="Digital India" className="h-10" />
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/255px-Flag_of_India.svg.png" alt="India" className="h-10" />
           </div>
-          <p className="text-[11px] font-black text-white/20 uppercase tracking-[0.4em] mb-6">Secured via Quantum Encryption Protocol</p>
-          <div className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] text-white/10 font-bold uppercase tracking-widest">
-            <span>© 2026 ROZGARAI WORLDWIDE</span>
-            <span>•</span>
-            <span>AES-256 GCM SECURED</span>
-            <span>•</span>
-            <span>DATA SOVEREIGNTY PROTOCOL</span>
+          
+          <div className="space-y-2">
+            <p className="text-[11px] font-black text-slate-400 uppercase tracking-[0.4em]">Secure Identity Infrastructure</p>
+            <div className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-[10px] text-slate-400 font-bold uppercase tracking-widest">
+              <span>© 2026 ROZGARAI WORLDWIDE</span>
+              <span>•</span>
+              <span>AES-256 SECURED</span>
+              <span>•</span>
+              <span>DATA SOVEREIGNTY PROTOCOL</span>
+            </div>
           </div>
         </footer>
       </div>
